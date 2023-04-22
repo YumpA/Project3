@@ -9,6 +9,7 @@
 html,
 body {
     height: 100%;
+    color: #25202F;
 }
 
 .section {
@@ -26,6 +27,7 @@ body {
 
 .menu-wrapper a {
     text-decoration: none;
+    color: #25202F;
     margin-left: 40px;
     margin-top: 10px;
 }
@@ -89,7 +91,7 @@ body {
 
 .block_name {
     font-size: 18px;
-    border-bottom: 1px solid #8643DC;
+    border-bottom: 2px solid #8643DC;
     color: #8643DC;
     padding-bottom: 10px;
     width: 50px;
@@ -163,6 +165,7 @@ body {
 .explore {
     font-size: 24px;
     text-decoration: none;
+    color: #25202F;
     border-bottom: 2px #25202F solid;
     padding-bottom: 1px;
 }
@@ -181,9 +184,12 @@ body {
 
 /*---------Blog------------*/
 
-.left-grid-bar {
+.blog {
+    margin-top: 150px;
+}
+
+.grid {
     width: 140px;
-    border: solid 1px white;
 }
 
 .gallery {
@@ -261,4 +267,29 @@ body {
     grid-column: 11/15;
     grid-row: 1/4;
     background-image: url(../images/img3.png);
+}
+
+/*---------contact form-------------*/
+
+.section-form {
+    margin-top: 150px;
+}
+
+.form {
+    width: 500px;
+}
+
+.block_name_form {
+    font-size: 18px;
+    border-bottom: 2px solid #8643DC;
+    color: #8643DC;
+    padding-bottom: 10px;
+    width: 90px;
+    margin-bottom: 1%;
+}
+
+.mail {
+    text-decoration: none;
+    font-size: 24px;
+    color: #8643DC;
 }
