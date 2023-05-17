@@ -14,13 +14,13 @@
                 <div class="menu-wrapper container">
                     <a href="#" class="logo"><img src="images/Group 31.svg" alt="logo" width="40px"></a>
                     <ul class="menu_ul">
-                        <li class="li_item"><a href="#">About</a></li>
-                        <li class="li_item"><a href="#">Services</a></li>
-                        <li class="li_item"><a href="#">Works</a></li>
-                        <li class="li_item"><a href="#">Blog</a></li>
+                        <li class="li_item"><a href="#about">About</a></li>
+                        <li class="li_item"><a href="#services">Services</a></li>
+                        <li class="li_item"><a href="#works">Works</a></li>
+                        <li class="li_item"><a href="#blog">Blog</a></li>
                     </ul>
                 </div>
-                <div class="man">
+                <div class="man" id="about">
                     <div class="words">
                         <p>Hello,</p>
                         <p class="name">Adam Zakob</p>
@@ -33,7 +33,7 @@
         </section>
 </header>
     <main>
-        <section class="section service">
+        <section class="section service" id="services">
             <div class="container">
                 <p class="block_name">Services</p>
                 <div class="left_bar">
@@ -58,7 +58,7 @@
                 </div>
         </div>
         </section>
-        <section class="portfolio">
+        <section class="portfolio" id="works">
             <div class="container">
                 <p class="block_name">Portfolio</p>
                 <div class="high_bar">
@@ -67,7 +67,10 @@
                     </div>
                     <div class="explore_link">
                         <a href="#" class="explore">Explore More</a>
-                        <img src="images/Arrow-right.svg" alt="arrow">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                          </svg>
+                        <!-- <img src="images/Arrow-right.svg" alt="arrow"> -->
                     </div>
                 </div>
                 <div class="pictures">
@@ -77,7 +80,7 @@
             </div>
             
         </section>
-        <section class="blog">
+        <section class="blog" id="blog">
             <div class="container">
                     <div class="gallery">
                         <div class="grid_block">
@@ -123,12 +126,30 @@
                         <a href="russki-misha@mail.ru" class="mail">russki-misha@mail.ru</a>
                     </div>
                 </div>
+                <div class="form">
+                    <form id="contact-form" action="script.php">
+                        <input type="text" id="name" placeholder="What's your name?" required>
+                        <br>
+                        <input type="mail" id="mail" placeholder="Your email" required>
+                        <br>
+                        <input type="text" id="message" placeholder="Tell me about your project" required>
+                        <input class="form-btn" type="submit" value="Get a Quote">
+                    </form>
+                </div>
             </div>
         </section>
     </main>
     <footer>
-        <div class="container">
-            Foot
+        <div class="container footer">
+            <h2>Let's be Friends</h2>
+            <!-- <div class="foot-img"></div>
+            <div class="foot-img"></div>
+            <div class="foot-img"></div> -->
+            <div class="contacts">
+                <img src="images/ball icon.png" alt="ball">
+                <img src="images/Instagram icon.png" alt="instagram">
+                <img src="images/linkedin icon.png" alt="linkedin">    
+            </div>
         </div>
     </footer>
 </body>
