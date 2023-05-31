@@ -44,6 +44,7 @@ body {
 }
 
 .li_item {
+    font-family: 'red_hat_displaymedium';
     list-style: none;
     margin-left: 40px;
     margin-top: 10px;
@@ -76,6 +77,7 @@ body {
 }
 
 .words {
+    font-family: 'red_hat_displaymedium';
     margin-bottom: 20%;
     width: 40%;
     font-size: 24px;
@@ -86,6 +88,7 @@ body {
 }
 
 .bttn {
+    font-family: 'red_hat_displayregular';
     display: block;
     text-align: center;
     font-size: x-large;
@@ -94,13 +97,21 @@ body {
     color: white;
     border-radius: 100px;
     width: 210px;
-    /* height: 60px; */
     padding: 15px 0;
     text-decoration: none;
     margin-top: 50px;
+    transition: background-color 0.3s ease;
 }
 
+.bttn:hover,
+.bttn:focus {
+    background-color: #432d61;
+    transition: background-color 0.3s ease;
+}
+
+
 .name {
+    font-family: 'red_hat_displaybold';
     font-size: 60px;
     font-weight: bold;
     margin-top: 20px;
@@ -110,6 +121,7 @@ body {
 /*--------Servises-------*/
 
 .block_name {
+    font-family: 'red_hat_displayregular';
     font-size: 18px;
     border-bottom: 2px solid #8643DC;
     color: #8643DC;
@@ -119,11 +131,13 @@ body {
 }
 
 .left_bar {
-    width: 220px;
+    width: 240px;
     border: solid 1px white;
 }
 
 .description {
+    font-family: 'red_hat_displaybold';
+    line-height: 45px;
     font-size: 36px;
     font-weight: lighter;
 }
@@ -142,6 +156,7 @@ body {
 }
 
 .article_name {
+    font-family: 'red_hat_displaymedium';
     text-align: left;
     margin-bottom: 13%;
     margin-left: 23%;
@@ -149,9 +164,10 @@ body {
 }
 
 .article {
+    font-family: 'red_hat_displayregular';
+    line-height: 35px;
     text-align: left;
     font-size: 16px;
-    line-height: 1.5;
 }
 
 .text1 {
@@ -184,6 +200,7 @@ body {
 }
 
 .explore {
+    font-family: 'red_hat_displaymedium';
     font-size: 24px;
     text-decoration: underline;
     color: #25202F;
@@ -211,7 +228,7 @@ body {
 }
 
 .grid {
-    width: 140px;
+    width: 200px;
 }
 
 .gallery {
@@ -230,15 +247,18 @@ body {
 
 .signature {
    margin-top: 75%;
+   line-height: 25px;
 } 
 
 
 .signature__data1 {
+    font-family: 'red_hat_displaymedium';
     color: #8643DC;
     font-size: 16px;
 }
 
 .signature__description1 {
+    font-family: 'red_hat_displaybold';
     font-size: 20px;
 }
 
@@ -250,24 +270,28 @@ body {
 }
 
 .signature__data2 {
+    font-family: 'red_hat_displaymedium';
     font-size: 16px;
     color: red;
 }
 
 .signature__description2 {
-    font-weight: bold;
+    font-family: 'red_hat_displaybold';
+    /* font-weight: bold; */
     font-size: 20px;
     width: 200px;
     color: red;
 }
 
 .signature__data3 {
+    font-family: 'red_hat_displaymedium';
     font-size: 16px;
     color: red;
 }
 
 .signature__description3 {
-    font-weight: bold;
+    font-family: 'red_hat_displaybold';
+    /* font-weight: bold; */
     font-size: 20px;
     color: red;
 }
@@ -280,12 +304,14 @@ body {
 }
 
 .gallery__signature1 {
+    line-height: 25px;
     position: absolute;
     top:  66%;
     left: 10%;
 }
 
 .gallery__signature2 {
+    line-height: 25px;
     position: absolute;
     top:  73%;
     left: 10%;
@@ -297,43 +323,43 @@ body {
     margin-top: 150px;
 }
 
-.form {
-    width: 500px;
+.des_font {
+    font-family: 'roboto_mediumregular';
+    width: 520px;
 }
 
 .block_name_form {
+    font-family: 'red_hat_displayregular';
     font-size: 18px;
     border-bottom: 2px solid #8643DC;
     color: #8643DC;
     padding-bottom: 10px;
-    width: 90px;
+    width: 95px;
     margin-bottom: 1%;
 }
 
 .mail {
-    text-decoration: none;
+    font-family: 'robotoregular';
+    text-decoration: underline;
     font-size: 24px;
     color: #8643DC;
-}
-
-#contact-form {
-    width: 100%;
 }
 
 #name,
 #mail,
 #message
 {
-    margin-top: 10%;
-    padding-bottom: 4%;
+    margin-top: 5%;
+    padding-bottom: 3%;
     border: none;
     border-bottom: 1px solid #DAD2E3;
     font-size: 20px;
-    width: 225%;
+    width: 1110px;
     outline: none;
 }
 
 .form-btn {
+    font-family: 'red_hat_displaymedium';
     text-align: center;
     font-size: 18px;
     border: 1px solid blueviolet;
@@ -343,7 +369,31 @@ body {
     width: 200px;
     padding: 20px 0;
     margin-top: 25px;
+    transition: background-color 0.3s ease;
 }
+
+.form-btn:hover,
+.form-btn:focus {
+    background-color:#432d61;
+    transition: background-color 0.3s ease;
+}
+
+.paper-clip {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clip {
+    margin-left: 75%;
+}
+
+.clip,
+.enter-arrow {
+    margin-top: 2%;
+}
+
 /* -----------footer------------- */
 
 h2 {
@@ -357,6 +407,11 @@ h2 {
     align-items: center;
     margin-top: 10%;
     padding-bottom: 3%;
+}
+
+.footer h2 {
+    font-family: 'red_hat_displaymedium';
+    font-size: 35px;
 }
 
 .contacts {
